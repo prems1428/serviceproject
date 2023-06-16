@@ -1,0 +1,10 @@
+.container{
+    justify-content: center;
+    display: flex;
+    border: 2px solid blue;
+    padding: 1%;
+    background-color: rgb(208, 205, 248);
+    width:500px;
+    text-align:center;
+    margin:5px 300px;
+}

@@ -1,0 +1,20 @@
+<!-- <button (click)="onColor('red')">red</button>
+<button (click)="onColor('green')">green</button>
+<button (click)="onColor('blue')">blue</button>
+<br>
+<span [ngStyle]="{'color':colorVal }">{{val}}</span><br> -->
+
+<table style="width:100%">
+   <tr>
+      <th>NAME</th>
+      <th>AGE</th>
+      <th>CONTACT</th>
+      <th>UPDATION</th>
+   </tr>
+   <tr *ngFor="let data of getOutVal">
+       <td>{{data.Name}}</td>
+       <td>{{data.Age}}</td>
+       <td>{{data.Contact}}</td>
+       <td><button>Edit</button><button>Delete</button></td>
+   </tr>
+</table>
